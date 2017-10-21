@@ -19,3 +19,6 @@ after_failure:
 - cat role-tester-ansible-master/.kitchen/logs/*.log | grep -v '^I, '
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
+  email:
+    recipients:
+      secure: B5vD7pAG2oU7+YyEcMK9Hoyyu/WPtb1UwYImW0jC6NOjvoV0LdJHtH+IQFeNtRyEd7lWVLDWFS9iy8hSMJWFVbJv3t0Bu7SDV8VR7Sq8/e9KLE0Au3wOPNoTxjR+eSwqPuPvvgcenEom81Fjqeka9ymARDUQumDwR/136hCV82Pudp3ehsU68+QWZbJJSemqEuu05/deRHh1G8yUC8FboY9/vLYrAytNP0D5Wtt+J92KmUAFr/awaR7lgXImP5kVrpEYHxEnTPNSfHSx6jA7Cg2AFB8fCGCrC74i3VD1vSDkJ9rkhpYebuPbPMgLF2JjrLsSR0AIJAaZoMW4JJzLak2zlgMxSKs+9WbP/ngE51M4smBbcyDvbn1Q5ZsyMoMX+5IA1U9V1X3TwWU+WDNnQjPj3iK1d90q7KGsht90qhbXM98ms8uZL5X0+PzbuazYzrZVYskcdJpau85sc0E6RwiBK2LVvaBIxZDHKozhluFrLFja1iJnRET+HZXjM1ctRWLrPlEoKC6zGTKV96NCAeH6GD5uUolOAF0UAErV3J83ut32V8ABk5iSvNCq8eG4f6nChy3BqRb2yg9AvrfIorirZ/eJYjFVqOsH2+tdpPh2gjHIGnhxuc47ROUnO5Pef//nPu6itvLBqTdMWhC7JWParS61Esgm01AiVdOzPqU=
